@@ -150,3 +150,43 @@ footer a{
   color: #4645a8;
 text-decoration: none;
 }
+
+/* Media Query for Tablet Viewport*/
+@media screen and (min-width:550px), print{
+}
+
+/* Tablet Viewport: show tab-desk class, hide mobile class */
+.tab-desk {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Tablet vieprt: style rule for header content*/
+span.tab-desk{
+  display: inline;
+}
+
+/* Tablet viewportz: style rules for nav area */
+nav li{
+  border-top: 1px solid #e5e9fc;
+  display: inline block;
+  font-size: 1.5em;
+}
+p {
+    font-weight: bold;
+}
+
+li:last-child {
+    border: none solid ;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+}
